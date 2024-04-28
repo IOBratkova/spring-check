@@ -18,6 +18,6 @@ public class Perceptron implements Quotes {
 
     @Override
     public void sayQuote() {
-        IntStream.range(0, repeat).forEach(i -> System.out.println(message + i));
+        IntStream.range(0, repeat).forEach(i -> System.out.println(message + "" + (i + 1)));
     }
 }
